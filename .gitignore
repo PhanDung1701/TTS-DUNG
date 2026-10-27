@@ -1,0 +1,27 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+.pytest_cache/
+
+# Virtual environments
+.venv
+.xpu_venv
+outputs/
+.env
+
+# Finetune Data & Checkpoints
+finetune/dataset/
+finetune/output/
+
+# Merged Models
+merged_models_cache/
+
+# Local downloaded models and generated audio/logs
+/models/hf-cache/
+/docker/output_audio/
+/web.stdout.log
+/web.stderr.log
